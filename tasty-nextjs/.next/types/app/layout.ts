@@ -1,8 +1,8 @@
-// File: /Users/da/workspace/github.com/da-revo/tasty-next-shad/tasty-next/app/layout.tsx
-import * as entry from '../../../app/layout.jsx'
+// File: /Users/da/workspace/github.com/da-revo/tasty-next-shad/tasty-nextjs/app/layout.tsx
+import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../app/layout.jsx')
+type TEntry = typeof import('../../../app/layout.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
