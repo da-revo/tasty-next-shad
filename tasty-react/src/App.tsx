@@ -14,7 +14,7 @@ function App() {
     <NavBar/>
       <Routes>
         <Route path="/" element={<HomePage/>}/> {/* 👈 Renders at /app/ */}
-        <Route path="/recipies/:recipeId" element={<RecipePage/>}/> 
+        <Route path="/recipes/:recipeId" element={<RecipePage/>}/> 
         <Route path="*" element={<p>This page does not exist</p>}/> 
       </Routes>
     </>
